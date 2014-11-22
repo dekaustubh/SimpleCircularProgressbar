@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleCircularProgressbar">
+        <attr name="startAt" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="thickness" format="integer"/>
+        <attr name="rotation" format="enum">
+            <enum name="clockwise" value="0"/>
+            <enum name="anticlockwise" value="1"/>
+        </attr>
+        <attr name="progress" format="float"/>
+        <attr name="maxProgress" format="float"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+    </declare-styleable>
+
+    <attr name="circularProgressbarStyle" format="reference" />
+</resources>
