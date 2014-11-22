@@ -41,10 +41,11 @@ Example code for getting Simple circular progress bar
     bar.startFrom(SimpleCircularProgressbar.RIGHT); // Supports LEFT, TOP, BOTTOM also
     bar.setProgressColor(Color.RED);
     bar.setSecondaryColor(Color.YELLOW);
-````
+```
 
 ### known issues
-``` right now does not support rotation changes ```
+``` right now does not support rotation changes 
+```
 
 # Developer
 
