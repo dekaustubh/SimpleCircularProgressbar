@@ -32,20 +32,8 @@ Example code for getting Simple circular progress bar
         android:layout_height="200dp"/>
 ```
 
-### Supporting mathods 
-```SimpleCircularProgressbar bar = (SimpleCircularProgressbar) findViewById(R.id.view);
-    bar.setProgress(35);
-    bar.setMaxProgress(100);
-    bar.setThickness(8);
-    bar.setRotation(SimpleCircularProgressbar.ANTICLOCKWISE); // supports SimpleCircularProgressbar.ANTICLOCKWISE also
-    bar.startFrom(SimpleCircularProgressbar.RIGHT); // Supports LEFT, TOP, BOTTOM also
-    bar.setProgressColor(Color.RED);
-    bar.setSecondaryColor(Color.YELLOW);
-```
-
 ### known issues
-```right now does not support rotation changes 
-```
+```right now does not support rotation changes```
 
 # Developer
 
