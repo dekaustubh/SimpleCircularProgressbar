@@ -14,9 +14,9 @@ A very basic circular progress bar. Just include it and use as you want.
 1. Download library from repo
 2. Add the dependency in your gradle file
 ```gradle
-    compile projec(':library')
+    compile project(':library')
 ```
-3. in settings.gradle say
+3. in settings.gradle 
 ```include ':yourapp', ':library'```
 
 ### Code
