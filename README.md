@@ -33,7 +33,7 @@ Example code for getting Simple circular progress bar
 ```
 
 ### Supporting mathods 
-``` SimpleCircularProgressbar bar = (SimpleCircularProgressbar) findViewById(R.id.view);
+```SimpleCircularProgressbar bar = (SimpleCircularProgressbar) findViewById(R.id.view);
     bar.setProgress(35);
     bar.setMaxProgress(100);
     bar.setThickness(8);
@@ -44,7 +44,7 @@ Example code for getting Simple circular progress bar
 ```
 
 ### known issues
-``` right now does not support rotation changes 
+```right now does not support rotation changes 
 ```
 
 # Developer
