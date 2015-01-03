@@ -11,13 +11,16 @@ A very basic circular progress bar. Just include it and use as you want.
 
 ## How to use ?
 
-1. Download library from repo
-2. Add the dependency in your gradle file
+1. Add the repository
 ```gradle
-    compile project(':library')
+    maven {
+        url 'https://github.com/Kaustubh-Deshmukh/progressbar_repo/raw/master'
+    }
 ```
-3. in settings.gradle 
-```include ':yourapp', ':library'```
+2. Add the dependency
+```gradle
+    compile 'SimpleCircularProgressbar:library:1.1'
+```
 
 ### Code
 Example code for getting Simple circular progress bar
@@ -31,9 +34,6 @@ Example code for getting Simple circular progress bar
         android:layout_width="200dp"
         android:layout_height="200dp"/>
 ```
-
-### known issues
-```right now does not support rotation changes```
 
 # Developer
 
