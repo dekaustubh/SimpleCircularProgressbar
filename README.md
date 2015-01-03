@@ -5,19 +5,19 @@ A very basic circular progress bar. Just include it and use as you want.
 
 ## Features
 
-1. Supports clockwise and anticlockwise roations
+1. Supports clockwise and anticlockwise rotations
 2. works well in scrollviews
-3. Can set colors dynaliccaly and start position of progress
+3. Can set colors dynamically and start position of progress
 
 ## How to use ?
 
-1. Add the repository
+ Add the repository
 ```gradle
     maven {
         url 'https://github.com/Kaustubh-Deshmukh/progressbar_repo/raw/master'
     }
 ```
-2. Add the dependency
+Add the dependency
 ```gradle
     compile 'SimpleCircularProgressbar:library:1.1'
 ```
