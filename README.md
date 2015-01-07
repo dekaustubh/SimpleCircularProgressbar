@@ -19,7 +19,7 @@ A very basic circular progress bar. Just include it and use as you want.
 ```
 Add the dependency
 ```gradle
-    compile 'SimpleCircularProgressbar:library:1.1'
+    compile 'SimpleCircularProgressbar:library:1.2'
 ```
 
 ### Code
@@ -27,7 +27,7 @@ Example code for getting Simple circular progress bar
 ```xml
     <com.kd.progressbar.SimpleCircularProgressbar
         xmlns:custom="http://schemas.android.com/apk/res-auto"
-        custom:thickness="10"
+        custom:progressbar_thickness="10"
         custom:progress="17"
         custom:rotation="anticlockwise"
         custom:progressColor="#FF00FF"
