@@ -95,7 +95,7 @@ public class SimpleCircularProgressbar extends View {
                 mRotation = attributes.getInteger(R.styleable.SimpleCircularProgressbar_rotation, 0);
                 mProgressbarColor = attributes.getColor(R.styleable.SimpleCircularProgressbar_progressColor, Color.BLACK);
                 mProgressbarBackgroundColor = attributes.getColor(R.styleable.SimpleCircularProgressbar_backgroundColor, Color.GRAY);
-                mThickness = attributes.getInteger(R.styleable.SimpleCircularProgressbar_thickness, 8);
+                mThickness = attributes.getInteger(R.styleable.SimpleCircularProgressbar_progressbar_thickness, 8);
             }
             finally {
                 attributes.recycle();
