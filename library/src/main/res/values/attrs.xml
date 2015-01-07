@@ -7,7 +7,7 @@
             <enum name="right" value="2"/>
             <enum name="bottom" value="3"/>
         </attr>
-        <attr name="thickness" format="integer"/>
+        <attr name="progressbar_thickness" format="integer"/>
         <attr name="rotation" format="enum">
             <enum name="clockwise" value="0"/>
             <enum name="anticlockwise" value="1"/>
