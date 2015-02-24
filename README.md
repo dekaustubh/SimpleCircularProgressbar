@@ -30,9 +30,17 @@ Example code for getting Simple circular progress bar
         custom:progressbar_thickness="10"
         custom:progress="17"
         custom:rotation="anticlockwise"
-        custom:progressColor="#FF00FF"
+        custom:progressColor="@color/purple"
+        custom:backgroundColor="@color/bg_color"
+        custom:startAt="left"
         android:layout_width="200dp"
         android:layout_height="200dp"/>
+```
+
+###
+```json
+You can also use :
+custom:startAt="right" / "left" / "top" / "bottom"
 ```
 
 # Developer
